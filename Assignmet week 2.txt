@@ -1,0 +1,528 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "926b6c7e-db4f-4761-b327-8f5c4aabcb31",
+   "metadata": {},
+   "source": [
+    "## Q1. How do you comment code in Python? What are the different types of comments?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "ad93c257-af7f-4ed2-819c-ced6bfdd4ddc",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "## Answer we do comment in python by using double hasthag ##"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "52723cc0-90ee-40ac-8c22-d35958b69201",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "## there two diffrent types of comment ex : single line comment and multi line comments "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "a6363f56-c6d1-4bbf-8f71-d94aa5d309a6",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "## Ex : this is a single line comment"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "19bd1fd9-0d70-4cd9-8c42-71999a5a7a2e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'When we need to write comment for double line \\noe more than double line then we need to use tripe line codes which i have used at the time of straing\\nthis code and end of the code also we need to use tripe line code which\\n i will do ow end of the code'"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"\"\"When we need to write comment for double line \n",
+    "oe more than double line then we need to use tripe line codes which i have used at the time of straing\n",
+    "this code and end of the code also we need to use tripe line code which\n",
+    " i will do ow end of the code\"\"\""
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "69fa3de2-dc5a-4dfd-be1f-087329f11060",
+   "metadata": {},
+   "source": [
+    "## Q2. What are variables in Python? How do you declare and assign values to variables?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "79d67403-9231-49d0-8ddf-1ddbb917e473",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# A Python variable is a symbolic name that is a reference or pointer to an object. "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "2f16482b-91cf-4630-8574-b845ab8871f3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "## declare and assingning values ex :"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "791a3220-774a-4fc2-9e47-60427064cb80",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a = 25"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "fa600ae7-c611-4a2d-99f9-ab2b3b01f54e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "25"
+      ]
+     },
+     "execution_count": 9,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d0ea9002-9852-452a-8987-fdfa5b0c4dd9",
+   "metadata": {},
+   "source": [
+    "## Q3. How do you convert one data type to another in Python?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "6c88f828-696f-42f3-b53c-b87ebcdc3679",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "t = (2, 3, \"nadim\" , True)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "74838d55-4c47-4dd8-af48-b9918b5be673",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[2, 3, 'nadim', True]"
+      ]
+     },
+     "execution_count": 11,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "list(t)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "b0d8b6e1-79d6-4741-b7a1-7f01bf89f20b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "##this is how we convert one data type to another data"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "8d2e4210-f109-4c8f-b55e-25d314877113",
+   "metadata": {},
+   "source": [
+    "## Q4. How do you write and execute a Python script from the command line?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "9db9668e-c538-4750-ae3e-e035fa89c6cc",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "my name is Nadim\n"
+     ]
+    }
+   ],
+   "source": [
+    "name = \"Nadim\"\n",
+    "print(\"my name is \"  +  name)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3b9287a6-8a32-4ec4-857c-f8df2a54770a",
+   "metadata": {},
+   "source": [
+    "## Q5. Given a list my_list = [1, 2, 3, 4, 5], write the code to slice the list and obtain the sub-list [2, 3]."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "8138d84f-9d13-4287-a061-217d86c67a7e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "my_list = [1 , 2 , 3 , 4 , 5]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "363bd380-010e-438d-a78e-7b4d5d43509a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[2, 3]"
+      ]
+     },
+     "execution_count": 21,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "my_list[1:3]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d2296ed9-1e94-4e84-bb57-c14bbca6a5cc",
+   "metadata": {},
+   "source": [
+    "## Q6. What is a complex number in mathematics, and how is it represented in Python?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "ef833c25-b330-4c89-8f77-cc6755fffb8a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "## The complex number is the combination of a real number and imaginary number ex :"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "064333a1-6e72-458e-bd45-0120c36a604e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "c = 25+5j"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "906376c5-781b-4dd1-b20f-0cecf679fa28",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "complex"
+      ]
+     },
+     "execution_count": 25,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(c)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b265f98f-bdfc-4396-b9fb-4843260ee1ba",
+   "metadata": {},
+   "source": [
+    "## Q7. What is the correct way to declare a variable named age and assign the value 25 to it?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "f1de243e-ee3b-43ac-bbe2-9af068c6d072",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Name = 'Nadim'\n",
+    "age = 25"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "69ff9e24-5464-4509-9d90-e608c172c398",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'Nadim'"
+      ]
+     },
+     "execution_count": 5,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "Name"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "0cacf765-a016-4433-a8f4-3621a176403f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "25"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "age "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "fc4d7aab-2180-4c80-8705-f1dbe0571465",
+   "metadata": {},
+   "source": [
+    "## Q8. Declare a variable named price and assign the value 9.99 to it. What data type does this variable \n",
+    "belong to?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "2cbb3f3e-c099-463c-b080-88293e741b26",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Name  = 9.99 "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "edd40bf1-fcc8-407a-9a19-e9116bc474e3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "float"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(Name)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "667b6adb-ba30-4393-aea6-327eb088a889",
+   "metadata": {},
+   "source": [
+    "## Q9  Create a variable named name and assign your full name to it as a string. How would you print the \n",
+    "value of this variable?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "d01d58b1-523e-4315-b86a-e706b4fc2b99",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "name = \"Sk Nadim\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "070046b1-e0cd-45b6-99d5-0875c6bd444a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'Sk Nadim'"
+      ]
+     },
+     "execution_count": 15,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6cce845b-2230-4f50-b80c-349498af408b",
+   "metadata": {},
+   "source": [
+    "## Q 10 Given the string \"Hello, World!\", extract the substring \"World\"."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "c0ca48a6-8546-4162-86bd-97b0f2cd9556",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    " s = \"Hello World\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "ff0608b8-cee0-4324-beb4-9eab16e56526",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' World'"
+      ]
+     },
+     "execution_count": 19,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[5:11]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "872b9d8d-6ab8-414c-96a8-da2328aae769",
+   "metadata": {},
+   "source": [
+    "## Q 11  Create a variable named \"is_student\" and assign it a boolean value indicating whether you are \n",
+    "currently a student or not."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "94b0adea-4ac5-4387-b573-91f04a6969bd",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "he is a student\n"
+     ]
+    }
+   ],
+   "source": [
+    "is_student = 15.5\n",
+    "if is_student < 18 :\n",
+    "    print(\"he is a student\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f6e47fe5-ca65-422f-afeb-5c28af0ce788",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
+
